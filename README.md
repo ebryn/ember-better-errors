@@ -1,26 +1,13 @@
-# Ember-better-errors
+# ember-better-errors
 
-This README outlines the details of collaborating on this Ember addon.
+Provides an error page when runtime errors occur in an Ember.js app.
 
-## Installation
+To install, run `ember install ember-better-errors`.
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+It's quite common as you're developing a runtime error may occur and you won't notice because your dev tools console will not always be open. This addon will give an error page, similar to how Ember CLI gives you build errors, when an handled exception occurs in your app.
 
-## Running
+This addon is meant for development only, not for production use.
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+### TODOs
 
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+* Only show the error page in development mode
